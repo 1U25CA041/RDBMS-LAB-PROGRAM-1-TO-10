@@ -11,13 +11,10 @@ CREATE TABLE Student(
     Email VARCHAR(30),
     PhoneNumber BIGINT
 );
+create table Student( studentID int(5) primary key,studentName varchar(20) not null, gender varchar(10) not null,departmentID
 
--- Insert
+int(5));
 
--- 1001 Arun
+insert into Student values(1001,"Arun","Male", 101),
 
--- 1002 Divya
-
--- 1003 Karthik
-
--- Display all records
+(1002,"Divya", "Female", 102), (1003,"Karthik","Male", 101); select * from Student;
