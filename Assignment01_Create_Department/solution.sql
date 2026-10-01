@@ -1,7 +1,5 @@
--- Write your SQL here
+create database collegeDB;
 
--- Create Database
+use collegeDB;
 
--- Use Database
-
--- Create Department Table
+create table Department (DepartmentID int(5) primary key, DepartmentName varchar(20), HOD varchar(20)); desc Department;
